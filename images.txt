@@ -1,8 +1,8 @@
 #支持私库
---platform=arm64 minio/minio
---platform=arm64 redis:5.0.3
---platform=arm64 elasticsearch:7.17.22
---platform=arm64 nacos/nacos-server:v1.4.7-slim
+--platform=arm64 calico/kube-controllers 
+--platform=arm64 calico/cni
+--platform=arm64 calico/node
+--platform=arm64 calico/pod2daemon-flexvol
 #支持指定架构
 #--platform=linux/arm64
 #--platform=arm64
