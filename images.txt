@@ -1,6 +1,7 @@
-#支持私库
+--platform=linux/arm64
 registry.k8s.io/pause:3.9
 registry.k8s.io/etcd:3.5.7-0
 registry.k8s.io/coredns/coredns:v1.10.1
+registry.k8s.io/pause-arm64:3.3
 #支持指定架构
---platform=arm64
+#支持私库
