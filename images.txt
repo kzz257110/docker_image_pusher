@@ -1,14 +1,8 @@
 #支持私库
---platform=arm64 registry.k8s.io/ingress-nginx/controller:v1.2.0
---platform=arm64 registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.1.1
---platform=arm64 calico/kube-controllers:v3.21.5 
---platform=arm64 calico/cni:v3.21.5
---platform=arm64 calico/node:v3.21.5
---platform=arm64 calico/pod2daemon-flexvol:v3.21.5
---platform=arm64 minio/minio:8.3.3
+--platform=arm64 minio/minio
 --platform=arm64 redis:5.0.3
---platform=arm64 elasticsearch:6.6.1
---platform=arm64 nacos/nacos-server:1.4.2
+--platform=arm64 elasticsearch:7.17.22
+--platform=arm64 nacos/nacos-server:v1.4.7-slim
 #支持指定架构
 #--platform=linux/arm64
 #--platform=arm64
