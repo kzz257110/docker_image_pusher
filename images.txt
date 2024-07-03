@@ -6,7 +6,7 @@
 #--platform=arm64 registry.k8s.io/pause:3.5
 #--platform=arm64 registry.k8s.io/etcd:3.5.0-0
 #--platform=arm64 coredns/coredns:1.8.4
---platform=arm64 python:3.7 
+--platform=arm64 centos:centos8
 #支持指定架构
 #--platform=linux/arm64
 #--platform=arm64
