@@ -6,7 +6,7 @@
 #--platform=arm64 registry.k8s.io/pause:3.5
 #--platform=arm64 registry.k8s.io/etcd:3.5.0-0
 #--platform=amd64 elasticsearch:6.8.22
---platform=arm64  node:10.16.3
+--platform=arm64  node:16.18.0
 #--platform=arm64 centos:centos8
 #支持指定架构
 #--platform=linux/arm64
