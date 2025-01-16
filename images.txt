@@ -6,10 +6,10 @@
 #--platform=arm64 registry.k8s.io/pause:3.5
 #--platform=arm64 registry.k8s.io/etcd:3.5.0-0
 #--platform=amd64 elasticsearch:6.8.22
---platform=amd64  redis:6.2.17
---platform=amd64 nacos/nacos-server:v2.4.3
---platform=amd64 minio/minio:RELEASE.2024-12-18T13-15-44Z
---platform=amd64 elasticsearch:7.17.27
+#--platform=amd64  redis:6.2.17
+#--platform=amd64 nacos/nacos-server:v2.4.3
+#--platform=amd64 minio/minio:RELEASE.2024-12-18T13-15-44Z
+--platform=amd64 elasticsearch:7.17.26
 #--platform=arm64 centos:centos8
 #支持指定架构
 #--platform=linux/arm64
