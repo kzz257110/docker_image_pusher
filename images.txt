@@ -1,5 +1,4 @@
 #支持私库
-
 --platform=amd64 federatedai/fateflow:1.9.2-release
 --platform=amd64 federatedai/fateboard:1.9.2-release
 --platform=amd64 federatedai/eggroll:1.9.2-release
