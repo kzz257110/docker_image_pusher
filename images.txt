@@ -1,6 +1,6 @@
 #支持私库
 --platform=amd64 federatedai/serving-admin:2.1.6-release
---platform=amd64 bitnami/zookeeper:3.7.0
+--platform=amd64 zookeeper:3.7.0
 --platform=amd64 federatedai/serving-server:2.1.6-release
 --platform=amd64 federatedai/serving-proxy:2.1.6-release
 #支持指定架构
