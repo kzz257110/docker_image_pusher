@@ -1,8 +1,7 @@
 #支持私库
---platform=amd64 federatedai/serving-admin:2.1.6-release
---platform=amd64 zookeeper:3.7.0
---platform=amd64 federatedai/serving-server:2.1.6-release
---platform=amd64 federatedai/serving-proxy:2.1.6-release
+#--platform=amd64 zookeeper:3.7.0
+#--platform=amd64 federatedai/serving-server:2.1.6-release
+--platform=amd64 minio/minio:latest
 #支持指定架构
 #--platform=linux/arm64
 #--platform=arm64
